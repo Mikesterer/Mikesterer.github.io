@@ -85,6 +85,13 @@ nav ul li a:hover {
 }
 
 .squareImage{
+    float: left;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+}
+.squarePicture{
     float: right;
     padding-top: 50px;
     padding-right: 80px;
@@ -98,4 +105,10 @@ section article h3 {
 }
 .currentTab {
     padding-bottom: 23.5px;
+}
+article div img {
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 55px;
 }
