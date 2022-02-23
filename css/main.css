@@ -130,3 +130,17 @@ nav ul li a:link {
     padding-left: 40px;
 }
 }
+
+@media (max-width: 484px){
+nav ul li a:link {
+    margin-left: 2vw;
+    margin-right: 0px;
+}
+.squarePicture {
+    padding-right: 0px;
+    margin-right: -25px;
+}
+.squareImage {
+    margin-left: -50px;
+}
+}
