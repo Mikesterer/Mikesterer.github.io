@@ -17,19 +17,13 @@ header {
     color: #FFFFFF;
     font-family: "VarinonormalRegular 1GXaM";
     text-align: center;
-    font-size: 70px;
     margin-top: 30px;
-}
-nav {
-    text-align: center;
-}
-nav ul {
-    text-decoration: none;
+    font-size: 70px;
 }
 nav ul li {
-    display: inline-block;
     color: #FFFFFF;
     font-family: "VarinonormalRegular 1GXaM";
+    display: inline-block;
 }
 section article h2 {
     font-size: 25px;
@@ -45,14 +39,13 @@ section article h2 {
 nav ul li a:link  {
     color: #FFFFFF;
     font-family: "VarinonormalRegular 1GXaM";
-    font-size: 30px;
     background-color: #EE4444;
     border-left: 4px solid #EE4444;
     border-right: 4px solid #EE4444;
     border-top: 4px solid #EE4444;
-    margin-top: 0px;
-    text-align: justify;
-    margin-left: 7vw;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 8vw;
     margin-right: 7vw;
 }
 nav ul li a:visited  {
@@ -63,10 +56,7 @@ nav ul li a:visited  {
     border-left: 4px solid #EE4444;
     border-right: 4px solid #EE4444;
     border-top: 4px solid #EE4444;
-    margin-top: 0px;
     text-align: justify;
-    margin-left: 7vw;
-    margin-right: 7vw;
     border-bottom: 33px solid #ED4344;
 }
 nav ul li a:hover {
@@ -96,7 +86,7 @@ nav ul li a:hover {
     padding-top: 50px;
     padding-right: 80px;
     padding-bottom: 80px;
-    padding-left: 80px;
+    padding-left: 50px;
 }
 section article h3 {
     padding-left: 30px;
@@ -107,8 +97,36 @@ section article h3 {
     padding-bottom: 23.5px;
 }
 article div img {
-    margin-right: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 55px;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+@media (max-width: 939px){
+nav ul li a:link {
+    text-align: left;
+    margin-left: 5vw;
+    margin-right: 3vw;
+}
+}
+
+@media (max-width: 488px){
+.textDown {
+    font-size: 50px;
+}
+}
+
+@media (max-width: 677px){
+nav ul li a:link {
+    margin-left: 3vw;
+    margin-right: 2vw;
+    font-size: 20px;
+}
+}
+
+@media (max-width: 621px){
+.squarePicture   {
+    padding-left: 40px;
+}
 }
