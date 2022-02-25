@@ -144,3 +144,13 @@ nav ul li a:link {
     margin-left: -50px;
 }
 }
+
+@media (max-width: 438px){
+nav ul li a:link {
+    margin-left: 1px;
+    font-size: 15px;
+}
+section article h2 {
+    font-size: 20px;
+}
+}
