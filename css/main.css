@@ -96,11 +96,10 @@ section article h3 {
 .currentTab {
     padding-bottom: 23.5px;
 }
-article div img {
-    margin-top: 3vw;
-    margin-bottom: 3vw;
-    margin-left: 3vw;
-    margin-right: 3vw;
+img   {
+    margin: auto;
+    display: block;
+    text-align: center;
 }
 
 @media (max-width: 939px){
@@ -153,4 +152,106 @@ nav ul li a:link {
 section article h2 {
     font-size: 20px;
 }
+}
+.container1 {
+  position: relative;
+  width: 100%;
+}
+.container2 {
+  position: relative;
+  width: 100%;
+}
+.container3 {
+  position: relative;
+  width: 100%;
+}
+.container4 {
+  position: relative;
+  width: 100%;
+}
+.container5 {
+  position: relative;
+  width: 100%;
+}
+.container6 {
+  position: relative;
+  width: 100%;
+}
+.container7 {
+  position: relative;
+  width: 100%;
+}
+.container8 {
+  position: relative;
+  width: 100%;
+}
+.container9 {
+  position: relative;
+  width: 100%;
+}
+.container10 {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#2C384B;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.container1:hover .overlay {
+  opacity: 0.8;
+}
+.container2:hover .overlay {
+  opacity: 0.8;
+}
+.container3:hover .overlay {
+  opacity: 0.8;
+}
+.container4:hover .overlay {
+  opacity: 0.8;
+}
+.container5:hover .overlay {
+  opacity: 0.8;
+}
+.container6:hover .overlay {
+  opacity: 0.8;
+}
+.container7:hover .overlay {
+  opacity: 0.8;
+}
+.container8:hover .overlay {
+  opacity: 0.8;
+}
+.container9:hover .overlay {
+  opacity: 0.8;
+}
+.container10:hover .overlay {
+  opacity: 0.8;
+}
+.text1 {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "VarinonormalRegular 1GXaM";
 }
